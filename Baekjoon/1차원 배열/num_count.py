@@ -7,10 +7,8 @@ b = int(input())
 c = int(input())
 
 num = a * b * c
-
+# 연산된 num값을 각각 숫자 하나씩 리스트로 담았다.
 n_list = list(map(int, str(num)))
-
-print(num, n_list)
 
 for i in range(10):
     count = 0
