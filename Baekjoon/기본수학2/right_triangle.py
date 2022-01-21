@@ -1,11 +1,6 @@
-
 while True:
     x, y, z = map(int, input().split())
-
-    x = x*x
-    y = y*y
-    z = z*z
-    list = [x, y, z]
+    list = [x*x, y*y, z*z]
     list.sort()
     list.reverse()
     z = list[0]
