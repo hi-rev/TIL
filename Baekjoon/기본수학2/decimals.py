@@ -8,6 +8,5 @@ for i in num_list:
         if i % j == 0:
             cnt += 1
     cnt_list.append(cnt)
-    print(cnt_list)
 
 print(cnt_list.count(2))
