@@ -1,6 +1,5 @@
 # x번째 분수 구하기
 x = int(input())
-
 line = 0 # 몇 번째 줄인지
 sum = 0 # 총 합
 
@@ -11,11 +10,10 @@ sum = sum - line # 이전 합
 turn = x - sum # 줄에서 몇 번째인지
 
 # line이 짝수면 오름차순, 홀수이면 내림차순
-
 if line % 2 == 0: # 짝수일 때
     one = turn
     two = (line + 1) - turn
-else:
+else: # 홀수일 때
     one = (line + 1) - turn
     two = turn
 
